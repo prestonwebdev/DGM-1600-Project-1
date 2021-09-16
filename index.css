@@ -1,0 +1,175 @@
+#container
+{
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: #13443d28;
+    font-family: Roboto, helvetica;
+
+}
+
+section{
+    margin: 1.5em;
+}
+
+header{
+background-color: rgba(24, 44, 41, 0.637);
+display: flex;
+justify-content: center;
+}
+
+
+.bio >img {
+    width: 280px;
+    height: 180px;
+    
+    
+}
+.bio{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+.intro{
+    width: 100%;
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.namedate {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(24, 44, 41, 0.837);
+    
+    
+}
+
+.namedate > h2 {
+    font-size: x-large;
+
+}
+
+time{
+    font-size: x-large;
+    color:rgba(24, 44, 41, 0.837);
+}
+
+.choose{
+    background-color: rgba(24, 44, 41, 0.603);
+    padding: .5rem 1rem 1rem 1rem ;
+    
+    margin-top: 2rem;
+    
+    
+}
+.choose h4{
+    margin-top: 2px;
+
+    padding: 0px;
+    margin-bottom: 1rem;
+    color: rgba(24, 44, 41, 0.866);
+    
+    
+}
+
+.choose ul{
+    padding: 1rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: white;
+    
+}
+
+h2{
+    padding:0px;
+    margin: 0px;
+}
+
+img{
+    width: 200px;
+
+}
+
+#tech {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    max-height: 260px;
+    
+   
+    
+}
+figure > img {
+    width: 170px;
+    height: 170px;
+    justify-content: center;
+}
+.vue{
+    padding-top: 20px;
+    
+}
+
+.vue > figcaption{
+    top: -55px;
+    
+}
+
+figure > figcaption{
+text-align: center;
+color:#fff;
+position: relative;
+top: -35px;
+background-color: rgba(2, 15, 13, 0.637);
+padding: 0.5rem;
+font-size: 1.2rem;
+width: 170px;
+margin-left:-10px;
+}
+figure {
+    width: 170px;
+}
+
+.excited{
+    color:white;
+}
+
+.excited h2{
+    color:rgba(24, 44, 41, 0.837);
+    margin-bottom: 1rem;
+}
+
+
+.excited div{
+    background-color:rgba(24, 44, 41, 0.637);
+    padding-left: 1rem;
+    
+    
+}
+
+.excited h4{
+    font-size: larger;
+    color: rgba(24, 44, 41, 0.837);
+   margin: auto; 
+    padding:5px 0px 5px 0px;
+    
+}
+
+.excited p{
+    margin: 2px 0px 10px 0px;
+    padding: 0px 0px 20px 0px;
+}
+footer{
+    color:rgba(24, 44, 41, 0.937);
+    text-align: center;
+}
+
